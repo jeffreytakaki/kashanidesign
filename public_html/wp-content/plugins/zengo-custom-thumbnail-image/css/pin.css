@@ -1,0 +1,133 @@
+@import url(http://fonts.googleapis.com/css?family=Audiowide);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700);
+
+div#zengo-title-name{
+  width: 80%;
+  margin: 0px auto;
+  box-shadow: 8px 3px 22px #666;
+  padding: 1px;
+}
+
+#main-search-zengo-pin{
+	width: 100%;
+	max-width: 1100px;	
+	margin: 50px auto;
+}
+#zengo-columns{
+/*	-webkit-column-count: 3;
+	-webkit-column-gap: 10px;
+	-moz-column-count: 3;
+	-moz-column-gap: 10px;	
+	column-count: 3;
+	column-gap: 15px;
+	column-fill: auto;*/
+}
+
+.zengo-pin{
+	display: inline-block;
+	background: #FEFEFE;
+	border: 2px solid #FAFAFA;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	margin: 15px 15px 15px;
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
+	padding: 15px;
+	padding-bottom: 5px;
+	background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
+	opacity: 1;
+	
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+	width:200px;
+}
+
+.zengo-pin a img{
+	max-width: 100%;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+}
+
+.zengo-pin span{
+	border-bottom: 0px solid #ccc;
+}
+
+.zengo-pin p{
+	font: 12px/18px Arial, sans-serif;
+	color: #333;
+	margin: 0;
+}
+.zengo-pin ul.zengo-lb-album1 li a{	
+	border-bottom:none !important;
+	text-decoration: none;
+}
+.zengo-pin ul.zengo-lb-album1 li a:hover{
+	font-weight: 600;
+	color: rgba(14, 12, 12, 0.83);
+}
+.zengo-pin ul.zengo-lb-album1 li .zengo-lb-overlay a:hover{
+	color: rgba(232, 232, 232, 0.91);
+}
+
+.zengo-pin ul.zengo-lb-album1 li{
+	text-align:center;
+}
+@media (min-width: 320px){
+	#zengo-columns {
+		/*-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;*/
+	}
+	.zengo-container1{
+		text-align:center;
+	}
+}
+
+@media (min-width: 768px){
+	#zengo-columns {
+		/*-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;*/
+	}
+}
+
+@media (min-width: 980px){
+	#zengo-columns {
+		/*-webkit-column-count: 3;
+		-moz-column-count: 3;
+		column-count: 3;*/
+	}
+}
+
+@media (min-width: 1100px){
+	#zengo-columns{
+		/*-webkit-column-count:4;
+		-moz-column-count: 4;
+		column-count: 4;*/
+	}
+}
+
+.zengo-pin:hover{
+	box-shadow: 2px 2px 3px 2px #333;
+}
+.zengo-lb-overlay img{
+	padding-bottom: 0px !important;
+}
+.zengo-pin .zengo-lb-album1 span{
+    font-size: 16px;
+}
+.zengo-pin li, .zengo-pin p{
+    text-align: center;
+    text-transform: uppercase;
+}
+.zengo-pin:hover p{
+	font-weight: 700;
+    font-size: 13px;
+}
+.zengo-pin ul{
+    padding: 0px;
+    list-style: none;
+}
